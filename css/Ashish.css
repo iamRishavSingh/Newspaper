@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+nav{
+    background-color: rgba(148, 102, 102, 0.311);
+    height: 60px;
+    width: 100%;
+    color: rgb(253, 250, 250);
+    text-align: left;
+    font-weight: bolder;
+}
+
+.uppercontainer{
+    display: flex;
+    
+}
+.leftbar{
+    width: 30%;
+    height: 260px;
+    border: 1px solid rgb(8, 8, 8);
+    font-size: small;
+    text-align: justify;
+
+}
+.leftbar p{
+    padding: 15px;
+}
+.firstimage{
+    width: 100%;
+    height: 260px;
+}
+
+.rightbar{
+    width: 70%;
+    height: 460px;
+    border: 1px solid rgb(254, 254, 254);
+    display: flex;
+    flex-direction: column;
+    
+}
+.rightbarheader{
+    font-size: 25px;
+    background-color: rgba(164, 131, 131, 0.311);
+}
+.rightbarbuttom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.194);
+    
+
+}
+
+.rightbarleft{
+    width: 45%;
+    height: 250px;
+    border: 1px solid rgb(7, 7, 7);
+}
+.secondimage{
+    width: 100%;
+    height: 250px;
+}
+.rightbarright{
+    width: 45%;
+    height: 250px;
+    border: 1px solid rgb(6, 6, 6);
+}
+.thirdimage{
+    width: 100%;
+    height: 250px;
+}
+.tanhajitext{
+    font-size:small;
+    text-align: justify;
+    padding: 15px;
+}
+
+.buttomcontainer{
+    font-size: small;
+    margin-top: 7px;
+    text-align: justify;
+    padding:40px 10px 0 15px;
+}
+.buttomcontainer h2{
+    padding-top: 20px;
+}
+
+
